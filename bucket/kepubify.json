@@ -1,0 +1,69 @@
+{
+    "version": "4.0.4",
+    "description": "Fast, standalone EPUB to Kobo EPUB conversion tool.",
+    "homepage": "https://pgaskin.net/kepubify",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/covergen-windows-64bit.exe",
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/kepubify-windows-64bit.exe",
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/seriesmeta-windows-64bit.exe"
+            ],
+            "bin": [
+                [
+                    "covergen-windows-64bit.exe",
+                    "covergen"
+                ],
+                [
+                    "kepubify-windows-64bit.exe",
+                    "kepubify"
+                ],
+                [
+                    "seriesmeta-windows-64bit.exe",
+                    "seriesmeta"
+                ]
+            ],
+        },
+        "arm64": {
+            "url": [
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/covergen-windows-arm64.exe",
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/kepubify-windows-arm64.exe",
+                "https://github.com/pgaskin/kepubify/releases/download/v4.0.4/seriesmeta-windows-arm64.exe"
+            ],
+            "bin": [
+                [
+                    "covergen-windows-arm64.exe",
+                    "covergen"
+                ],
+                [
+                    "kepubify-windows-arm64.exe",
+                    "kepubify"
+                ],
+                [
+                    "seriesmeta-windows-arm64.exe",
+                    "seriesmeta"
+                ]
+            ],
+        }
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/covergen-windows-64bit.exe",
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/kepubify-windows-64bit.exe",
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/seriesmeta-windows-64bit.exe"
+                ],
+            },
+            "arm64": {
+                "url": [
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/covergen-windows-arm64.exe",
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/kepubify-windows-arm64.exe",
+                    "https://github.com/pgaskin/kepubify/releases/download/v$version/seriesmeta-windows-arm64.exe"
+                ],
+            }
+        }
+    }
+}
