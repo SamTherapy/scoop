@@ -12,6 +12,6 @@ jobs:
       - name: mirror
         uses: yesolutions/mirror-action@master
         with:
-          REMOTE: 'https://git.froth.zone/packages/scoop.git'
+          REMOTE: 'https://git.froth.zone/packaging/scoop.git'
           GIT_USERNAME: oauth2
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
