@@ -8,7 +8,7 @@ My personal scoop bucket
 How do I install these manifests?
 ---------------------------------
 
-To add this bucket, run `scoop bucket add <bucketname> https://git.froth.zone/sam/scoop`. To install, do `scoop install <manifest>`.
+To add this bucket, run `scoop bucket add froth https://git.froth.zone/packaging/scoop`. To install, do `scoop install <manifest>`.
 
 How do I contribute new manifests?
 ----------------------------------
