@@ -1,19 +1,19 @@
 {
-    "version": "0.6.11",
+    "version": "0.6.12",
     "architecture": {
         "32bit": {
-            "url": "https://git.froth.zone/sam/awl/releases/download/v0.6.11/awl_Windows_i386.zip",
+            "url": "https://git.froth.zone/sam/awl/releases/download/v0.6.12/awl_Windows_i386.zip",
             "bin": [
                 "awl.exe"
             ],
-            "hash": "b4961720d09f9f883ead49dfc8c087fd16c52959ccd8bd3a27f82d10f79be5ed"
+            "hash": "1ae261f50d5573857a6a68ab294acbc9809c8b9b9dcaebe1f8cb8c4f151b782b"
         },
         "64bit": {
-            "url": "https://git.froth.zone/sam/awl/releases/download/v0.6.11/awl_Windows_amd64.zip",
+            "url": "https://git.froth.zone/sam/awl/releases/download/v0.6.12/awl_Windows_amd64.zip",
             "bin": [
                 "awl.exe"
             ],
-            "hash": "e248a73a64380abaa09b12517feb266dcb6e0e97c546c64ddd3d6eab1e9d76cc"
+            "hash": "90921623647dbfc3947df9bc859b8db195feb96042efcf1c3cd5b7f2fde61e76"
         }
     },
     "homepage": "https://dns.froth.zone/awl",
