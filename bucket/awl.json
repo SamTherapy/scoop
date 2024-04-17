@@ -6,14 +6,14 @@
             "bin": [
                 "awl.exe"
             ],
-            "hash": "1ae261f50d5573857a6a68ab294acbc9809c8b9b9dcaebe1f8cb8c4f151b782b"
+            "hash": "18a7f4fc7f0f597aced058728ba39d2cfe99eed3427a99db368ecca65b9550d8"
         },
         "64bit": {
             "url": "https://git.froth.zone/sam/awl/releases/download/v0.6.12/awl_Windows_amd64.zip",
             "bin": [
                 "awl.exe"
             ],
-            "hash": "90921623647dbfc3947df9bc859b8db195feb96042efcf1c3cd5b7f2fde61e76"
+            "hash": "50b46cb537438aee94984d36a64394ad84be1c58d446a6587674df042b32e758"
         }
     },
     "homepage": "https://dns.froth.zone/awl",
