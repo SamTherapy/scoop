@@ -1,15 +1,15 @@
 {
-    "version": "4.5.1",
+    "version": "4.7.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/quantumsheep/sshs/releases/download/4.5.1/sshs-windows-amd64.exe",
+            "url": "https://github.com/quantumsheep/sshs/releases/download/4.7.2/sshs-windows-amd64.exe",
             "bin": [
                 [
                     "sshs-windows-amd64.exe",
                     "sshs"
                 ]
             ],
-            "hash": "3a4feeeb944962021281b05ecf0226a046ecd6f12bc1fe36d4d74b77b202c6b8"
+            "hash": "eb61e85b48086a7583da27a5aa1bcf13b71c0b492bef270ca80d47d2bd94f3b0"
         }
     },
     "homepage": "https://github.com/quantumsheep/sshs",
